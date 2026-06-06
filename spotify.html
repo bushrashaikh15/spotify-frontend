@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="icon" href="logo.png" type="image/png" />
+  <title>Spotify - Web Player: Music for everyone</title>
+  <link rel="stylesheet" href="spotify.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="main">
+    <div class="sidebar">
+      <div class="nav">
+        <div class="nav-option" style="opacity: 1">
+          <i class="fa-solid fa-house"></i>
+          <a href="#">Home</a>
+        </div>
+        <div class="nav-option">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <a href="#">Search</a>
+        </div>
+      </div>
+
+      <div class="library">
+        <div class="options">
+          <div class="lib-option">
+            <img src="library_icon.png" />
+            <a href="#">Your Library</a>
+          </div>
+          <div class="icons">
+            <i class="fa-solid fa-plus"></i>
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+
+        <div class="lib-box">
+          <div class="box">
+            <p class="box-p1">Create your first playlist</p>
+            <p class="box-p2">It's easy, we'll help you</p>
+            <button class="badge">Create playlist</button>
+          </div>
+          <div class="box">
+            <p class="box-p1">Let's find some podcast to follow</p>
+            <p class="box-p2">We'll keep you updated on new episodes</p>
+            <button class="badge">Browse Podcasts</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!-- Icons & Buttons Section -->
+    <div class="main_content">
+  <div class="sticky-nav">
+    <div class="nav-icons">
+      <img src="backward_icon.png" alt="Back" />
+      <img src="forward_icon.png" alt="Forward" />
+    </div>
+    <div class="nav-buttons">
+      <button class="badge">Explore Premium</button>
+      <button class="badge black-badge"><i class="fa-solid fa-circle-down"></i> Install App</button>
+      <i class="fa-solid fa-user"></i>
+    </div>
+  </div>
+
+  <!-- Recently Played Section -->
+<h2 style="color:white; padding-left:1rem;">Recently Played</h2>
+
+<div class="card-container">
+    <div class="card">
+        <img src="card1img.jpeg" class="card-img">
+        <p class="card-title">Daylight</p>
+        <p class="card-info">Recently played by you.</p>
+    </div>
+
+    <div class="card">
+        <img src="card2img.jpeg" class="card-img">
+        <p class="card-title">Perfect</p>
+        <p class="card-info">Ed Sheeran's biggest romantic hits.</p>
+    </div>
+
+    <div class="card">
+        <img src="card3img.jpeg" class="card-img">
+        <p class="card-title">Night Drive</p>
+        <p class="card-info">Smooth music for late-night drives.</p>
+    </div>
+</div>
+
+
+<!-- Trending Now Section -->
+<h2 style="color:white; padding-left:1rem;">Trending now near you</h2>
+
+<div class="card-container">
+
+    <div class="card">
+        <img src="card2img.jpeg" class="card-img">
+        <p class="card-title">Mahiye Jinna Sohna</p>
+        <p class="card-info">
+            Latest romantic Punjabi songs loved by listeners.
+        </p>
+    </div>
+
+    <div class="card">
+        <img src="card3img.jpeg" class="card-img">
+        <p class="card-title">Lofi Nights</p>
+        <p class="card-info">
+            Relax, study and sleep with calming lofi beats.
+        </p>
+    </div>
+
+    <div class="card">
+        <img src="card4img.jpeg" class="card-img">
+        <p class="card-title">Tamil Blockbusters</p>
+        <p class="card-info">
+            Biggest South Indian chartbusters.
+        </p>
+    </div>
+
+    <div class="card">
+        <img src="card5img.jpeg" class="card-img">
+        <p class="card-title">Workout Mix</p>
+        <p class="card-info">
+            High-energy tracks for your gym sessions.
+        </p>
+    </div>
+
+    <div class="card">
+        <img src="card6img.jpeg" class="card-img">
+        <p class="card-title">Top Songs India</p>
+        <p class="card-info">
+            India's hottest tracks right now.
+        </p>
+    </div>
+
+    <div class="card">
+        <img src="card1img.jpeg" class="card-img">
+        <p class="card-title">Fresh Finds</p>
+        <p class="card-info">
+            Discover emerging artists and new releases.
+        </p>
+    </div>
+
+</div>
+
+
+<!-- Featured Charts Section -->
+<h2 style="color:white; padding-left:1rem;">Featured Charts</h2>
+
+<div class="card-container">
+
+    <div class="card">
+        <img src="card5img.jpeg" class="card-img">
+        <p class="card-title">Global Top 50</p>
+        <p class="card-info">
+            Most streamed songs worldwide.
+        </p>
+    </div>
+
+    <div class="card">
+        <img src="card6img.jpeg" class="card-img">
+        <p class="card-title">Viral 50 India</p>
+        <p class="card-info">
+            Trending songs taking over social media.
+        </p>
+    </div>
+
+    <div class="card">
+        <img src="card1img.jpeg" class="card-img">
+        <p class="card-title">Pop Rising</p>
+        <p class="card-info">
+            Fresh pop hits climbing the charts.
+        </p>
+    </div>
+
+    <div class="card">
+        <img src="card2img.jpeg" class="card-img">
+        <p class="card-title">Indie Mix</p>
+        <p class="card-info">
+            Handpicked indie music from rising artists.
+        </p>
+    </div>
+
+    <div class="card">
+        <img src="card3img.jpeg" class="card-img">
+        <p class="card-title">Chill Hits</p>
+        <p class="card-info">
+            Feel-good tracks for every mood.
+        </p>
+    </div>
+
+    <div class="card">
+        <img src="card4img.jpeg" class="card-img">
+        <p class="card-title">Rock Classics</p>
+        <p class="card-info">
+            Legendary rock songs from all decades.
+        </p>
+    </div>
+
+</div>
+
+  
+
+  <!-- Footer Section -->
+  <div class="footer">
+    <div class="line"></div>
+  </div>
+
+  <!-- Music Player Section -->
+<div class="main">
+  <div class="music-player">
+    <div class="player-container">
+      <div class="player-controls">
+        <img src="player_icon1.png" class="player-control-icon">
+        <img src="player_icon2.png" class="player-control-icon">
+        <img src="player_icon3.png" class="player-control-icon" style="opacity: 1; height: 2rem;">
+        <img src="player_icon4.png" class="player-control-icon">
+        <img src="player_icon5.png" class="player-control-icon">
+      </div>
+      <div class="playback-bar">
+        <span class="curr-time">00:00</span>
+        <input type="range" min="0" max="100" class="progress-bar" step="1">
+        <span class="tot-time">3:33</span>
+      </div>
+    </div>
+
+   <div class="music-player">
+  <!-- Left Section with Album Image and Song Info -->
+  <div class="player-left">
+    <img src="album-cover.jpg" class="album-cover" alt="Album Cover">
+    <div class="song-info">
+      <div class="song-title">Daylight</div>
+      <div class="song-artist">David Kushner</div>
+    </div>
+  </div>
+
+  <!-- Centered Player Controls -->
+  <div class="player-center">
+    <div class="player-controls">
+      <img src="player_icon1.png" class="player-control-icon">
+      <img src="player_icon2.png" class="player-control-icon">
+      <img src="player_icon3.png" class="player-control-icon" style="opacity: 1; height: 2rem;">
+      <img src="player_icon4.png" class="player-control-icon">
+      <img src="player_icon5.png" class="player-control-icon">
+    </div>
+    <div class="playback-bar">
+      <span class="curr-time">0:35</span>
+      <input type="range" min="0" max="100" class="progress-bar" step="1">
+      <span class="tot-time">2:34</span>
+    </div>
+  </div>
+
+  <!-- Right-side Controls -->
+  <div class="player-right">
+    <div class="right-controls">
+      <i class="fas fa-heart"></i>
+      <i class="fas fa-random"></i>
+      <i class="fas fa-redo"></i>
+      <i class="fas fa-volume-up"></i>
+      <input type="range" min="0" max="100" class="volume-bar" step="1">
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+
+</div> 
+</body>
+</html>
+
